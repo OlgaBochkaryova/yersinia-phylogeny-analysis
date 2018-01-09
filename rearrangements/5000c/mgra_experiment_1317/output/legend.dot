@@ -1,0 +1,37 @@
+digraph legend {
+	node [style=filled];
+	"NC_017154" [fillcolor=red3];
+	"NC_010159" [fillcolor=green3];
+	"NC_009381" [fillcolor=blue];
+	"AL590842" [fillcolor=purple];
+	"NC_004088" [fillcolor=black];
+	"CP001593" [fillcolor=orange];
+	"CP000308" [fillcolor=greenyellow];
+	"NC_017160" [fillcolor=pink];
+	"NC_005810" [fillcolor=cyan];
+	"CP000305" [fillcolor=magenta];
+	"NC_017168" [fillcolor=yellow3];
+	"NC_017265" [fillcolor=grey70];
+	"H" -> "NC_017154";
+	"G" -> "CP001593";
+	"F" -> "CP000308";
+	"A" -> "NC_017265";
+	"A" -> "CP000305";
+	"B" -> "A";
+	"B" -> "NC_004088";
+	"E" -> "B";
+	"D" -> "NC_005810";
+	"C" -> "NC_010159";
+	"C" -> "NC_009381";
+	"D" -> "C";
+	"E" -> "D";
+	"F" -> "E";
+	"G" -> "F";
+	"H" -> "G";
+	"J" -> "H";
+	"I" -> "NC_017168";
+	"I" -> "AL590842";
+	"J" -> "I";
+	";" -> "J";
+	";" -> "NC_017160";
+}
